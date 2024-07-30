@@ -1,0 +1,47 @@
+\documentclass[12pt,a4paper,dvipdfmx,twocolumn]{jsarticle}
+\usepackage[top=25truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\usepackage{cite}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{secdot}
+
+\bibliographystyle{jplain}
+\sectiondot{subsection}
+\sectiondot{subsubsection}
+
+\pagestyle{fancy}
+  \lhead{}
+  \chead{}
+  \rhead{卒業研究合同中間発表会 2024/07/31}
+  \lfoot{}
+  \cfoot{\thepage}
+  \rfoot{}
+
+\begin{document}
+
+\title{
+  観光地における公共交通機関利用者の \\
+  マルチエージェントシミュレーション
+}
+
+\author{
+  情報アーキテクチャ学科 情報システムコース \\
+  1021120 及川 寛太 \\
+  指導教員: 新美 礼彦 教授
+}
+
+\date{}
+
+\maketitle
+
+\thispagestyle{fancy}
+
+\input{introduction}
+\input{related_work}
+\input{method}
+\input{progress_and_outlook}
+
+\bibliography{ref}
+
+\end{document}
